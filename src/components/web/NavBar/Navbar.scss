@@ -1,0 +1,26 @@
+nav.bg-light {
+    background-color: white !important;
+  }
+  
+  .logo-navbar{
+    height: 40px;
+    
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+  }
+  
+  a.active-link {
+    color: rgb(3, 175, 255);
+  }
+  
+  
+  @media (max-width: 991px) {
+    a.nav-link {
+      color: black;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  
