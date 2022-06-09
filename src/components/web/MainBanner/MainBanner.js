@@ -5,11 +5,12 @@ import './MainBanner.scss'
 
 export default function MainBanner() {
   return (
+      
     <Container fluid className="main-banner">
       <div className="main-banner__dark">
         <Row>
-          <Col xs={4} />
-          <Col xs={16}>
+          <Col xs={2} />
+          <Col xs={8}>
             <h2>
               Aprender nuevas <br /> tecnologías web y mobiles
             </h2>
@@ -18,7 +19,7 @@ export default function MainBanner() {
               profesionales con años de experiencia.
             </h3>
           </Col>
-          <Col xs={4} />
+          <Col xs={2} />
         </Row>
       </div>
     </Container>

@@ -1,31 +1,35 @@
 import React, { useState } from "react";
-import {Container, Offcanvas, Nav, Navbar as NavbarBootstrap } from "react-bootstrap";
+import {
+  Container,
+  Offcanvas,
+  Nav,
+  Navbar as NavbarBootstrap,
+} from "react-bootstrap";
 
 //Logo
-import logoVanttec from "../../../assets/img/logo/Blanco/Aura_Blanco.png";
-import logoVanttecWhite from "../../../assets/img/logo/Blanco/Aura_Blanco.png";
+import logoAura from "../../../assets/img/logo/Negro/Aura_Negro.png";
+import logoAuraWhite from "../../../assets/img/logo/Blanco/Aura_Blanco.png";
 
-import './Navbar.scss'
+import "./Navbar.scss";
 
 function Navbar() {
-
   const [navbar, setNavBar] = useState(false);
   const [top, setTop] = useState("dark");
-  const [logo, setLogo] = useState(logoVanttecWhite)
+  const [logo, setLogo] = useState(logoAuraWhite);
 
   const changeBackground = () => {
-    if(window.scrollY < 57 && window.innerWidth > 912){
+    if (window.innerWidth > 912) {
       setNavBar(false);
       setTop("dark");
-      setLogo(logoVanttecWhite);
-    }else{
+      setLogo(logoAuraWhite);
+    } else {
       setNavBar(true);
-      setTop("light");
-      setLogo(logoVanttec);
+      setTop("dark");
+      setLogo(logoAura);
     }
-  }
+  };
 
-  window.addEventListener('scroll', changeBackground);
+  window.addEventListener("scroll", changeBackground);
 
   return (
     <Container fluid>
@@ -33,7 +37,7 @@ function Navbar() {
         variant={top}
         fixed="top"
         key={"md"}
-        bg={navbar ? "light" : ""}
+        bg={navbar ? "dark" : ""}
         expand={"lg"}
         className="mb-0"
       >
@@ -52,7 +56,7 @@ function Navbar() {
                 <a href="/home">
                   <img
                     className="logo-navbar"
-                    src={logoVanttec}
+                    src={logoAura}
                     alt="Vanttec logo"
                   />
                 </a>
@@ -60,8 +64,7 @@ function Navbar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="/">Inicio</Nav.Link>
-                <Nav.Link href="/nosotros">Sobre Aura</Nav.Link>
+                <Nav.Link href="/nosotros">Nosotros</Nav.Link>
                 <Nav.Link href="/servicios">Servicios</Nav.Link>
                 <Nav.Link href="/portafolio">Portafolio</Nav.Link>
                 <Nav.Link href="/clientes">Clientes</Nav.Link>
