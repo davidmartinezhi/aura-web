@@ -62,7 +62,7 @@ export default function MainBannerParticles() {
                 quantity: 4,
               },
               repulse: {
-                distance: 100,
+                distance: 150,
                 duration: 0.4,
               },
             },
@@ -104,7 +104,7 @@ export default function MainBannerParticles() {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 50,
             },
             opacity: {
               value: 0.5,
