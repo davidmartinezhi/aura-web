@@ -25,7 +25,7 @@ function Navbar() {
     } else {
       setNavBar(true);
       setTop("dark");
-      setLogo(logoAura);
+      setLogo(logoAuraWhite);
     }
   };
 
@@ -37,7 +37,7 @@ function Navbar() {
         variant={top}
         fixed="top"
         key={"md"}
-        bg={navbar ? "dark" : ""}
+        bg={""}
         expand={"lg"}
         className="mb-0"
       >
@@ -53,7 +53,7 @@ function Navbar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
-                <a href="/home">
+                <a href="/">
                   <img
                     className="logo-navbar"
                     src={logoAura}
