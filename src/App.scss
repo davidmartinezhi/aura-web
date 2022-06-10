@@ -1,9 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
 
-.page-top{
-    position: absolute !important;
-    top: 66px;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-}
+
+
+
+//transitions
+.fade-enter{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  .fade-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .fade-exit{
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .fade-exit-active{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  .fade-enter-active,
+  .fade-exit-active{
+    transition: opacity 600ms, transform 600ms;
+  }
+
+  .my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }

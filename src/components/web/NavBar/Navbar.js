@@ -43,7 +43,7 @@ function Navbar() {
       >
         <Container fluid>
           <NavbarBootstrap.Brand href="/">
-            <img className="logo-navbar" src={logo} alt="Vanttec logo" />
+            <img className="logo-navbar" src={logo} alt="Aura logo" />
           </NavbarBootstrap.Brand>
           <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
           <NavbarBootstrap.Offcanvas
@@ -57,14 +57,13 @@ function Navbar() {
                   <img
                     className="logo-navbar"
                     src={logoAura}
-                    alt="Vanttec logo"
+                    alt="Aura logo"
                   />
                 </a>
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="/nosotros">Nosotros</Nav.Link>
                 <Nav.Link href="/servicios">Servicios</Nav.Link>
                 <Nav.Link href="/portafolio">Portafolio</Nav.Link>
                 <Nav.Link href="/clientes">Clientes</Nav.Link>

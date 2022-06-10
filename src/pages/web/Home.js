@@ -3,6 +3,9 @@ import { Row, Col } from "react-bootstrap";
 import MainBanner from '../../components/web/MainBanner/MainBanner';
 import MainBannerParticles from '../../components/web/MainBannerParticles/MainBannerParticles';
 import NosotrosHome from '../../components/web/Home/NosotrosHome/NosotrosHome';
+import ServiciosHome from '../../components/web/Home/ServiciosHome/ServiciosHome';
+import PortafolioHome from '../../components/web/Home/PortafolioHome/PortafolioHome';
+import ClientesHome from '../../components/web/Home/ClientesHome/ClientesHome';
 
 export default function Home() {
   return (
@@ -13,10 +16,10 @@ export default function Home() {
           <Col xs={1} sm={2} />
           <Col xs={10} sm={8}>
             <h2>
-              Consultoría y <br/>Servicios Digitales
+              EVOLUCIONA A <br/>LA ERA DIGITAL
             </h2>
             <h3>
-              Haremos Lo Que Sea Por Tu Negocio
+              Digitaliza Tu Negocio Con Nosotros
             </h3>
           </Col>
           <Col xs={1} sm={2} />
@@ -27,12 +30,14 @@ export default function Home() {
         <NosotrosHome/>
 
         {/* Servicios */}
+        <ServiciosHome/>
 
         {/* Portafolio */}
+        <PortafolioHome/>
 
         {/* Clientes */}
+        <ClientesHome/>
 
-        {/* Contacto */}
     </>
   )
 }

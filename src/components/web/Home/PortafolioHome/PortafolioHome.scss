@@ -1,0 +1,15 @@
+.portafolio-home{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &-titulo{
+        h1{
+            color: #fff;
+        }
+    }
+}

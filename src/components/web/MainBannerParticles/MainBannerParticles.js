@@ -59,11 +59,10 @@ export default function MainBannerParticles({ children }) {
           },
           particles: {
             color: {
-              value: ["#fff"],
+              value: ["#aaa"],
             },
             links: {
               color: [
-                "#000",
                 "#fff",
                 "#87CEEB",
                 "#ffff00",
@@ -71,7 +70,7 @@ export default function MainBannerParticles({ children }) {
                 "#FE9AB6",
                 "#90E0F7",
               ],
-              //black, white, sky blue, yellow, orange, pink, blue
+              //white, sky blue, yellow, orange, pink, blue
               distance: 150,
               enable: true,
               opacity: 0.7,
