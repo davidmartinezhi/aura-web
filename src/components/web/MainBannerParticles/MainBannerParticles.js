@@ -1,11 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-import './MainBannerParticles.scss'
+import "./MainBannerParticles.scss";
 
-export default function MainBannerParticles() {
+export default function MainBannerParticles({ children }) {
   const particlesInit = async (main) => {
     console.log(main);
 
@@ -19,25 +19,15 @@ export default function MainBannerParticles() {
     console.log(container);
   };
   return (
-    <Container fluid className="main-banner-p">
-    <div className="main-banner-p__dark">
-        <Row>
-          <Col xs={2} />
-          <Col xs={8}>
-            <h2>
-              Aprender nuevas <br /> tecnologías web y mobiles
-            </h2>
-            <h3>
-              A través de cursos practicos y actualizados, creados por <br />
-              profesionales con años de experiencia.
-            </h3>
-          </Col>
-          <Col xs={2} />
-        </Row>
-        <Particles
+    <>
+      <Container fluid className="main-banner-p">
+      
+      <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
+        height={"100vh"}
+        style={{display:"absolute"}}
         options={{
           background: {
             color: {
@@ -73,6 +63,8 @@ export default function MainBannerParticles() {
             },
             links: {
               color: [
+                "#000",
+                "#aaa",
                 "#fff",
                 "#87CEEB",
                 "#ffff00",
@@ -80,11 +72,11 @@ export default function MainBannerParticles() {
                 "#FE9AB6",
                 "#90E0F7",
               ],
-              //white, sky blue, yellow, orange, pink, blue
+              //black, gray, white, sky blue, yellow, orange, pink, blue
               distance: 150,
               enable: true,
               opacity: 0.7,
-              width: 1,
+              width: 2,
             },
             collisions: {
               enable: true,
@@ -104,7 +96,7 @@ export default function MainBannerParticles() {
                 enable: true,
                 area: 800,
               },
-              value: 50,
+              value: 100,
             },
             opacity: {
               value: 0.5,
@@ -117,14 +109,23 @@ export default function MainBannerParticles() {
             },
           },
           detectRetina: true,
+          fullScreen:false,
+          zLayers: 100
         }}
       >
-
-      </Particles>
+       
+        
+        </Particles>  
+      <div className="main-banner-p__dark">
+      
+      
+      {children}
+        
       </div>
+   
+    
+      </Container>
 
-
-          </Container>
-
+    </>
   );
 }
