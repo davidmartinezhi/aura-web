@@ -1,5 +1,5 @@
 .clientes-home{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     
     background-color: rgba(0,0,0,0);
@@ -31,7 +31,7 @@
     margin-top: 15px;
     border: none;
     border-color: transparent !important;
-    border-radius: 10px !important;
+    border-radius: 0 !important;
     box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
     -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
     -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
@@ -40,10 +40,10 @@
         transition: all 0.3s ease-in !important;
         border-color: transparent !important;
         border: none;
-        --tw-shadow: inset 5px 10px 20px 1px  rgba(0,0,0,.3) !important;
-        box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow) !important;
-        -webkit-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow) !important;
-        -moz-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow) !important;
+        box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+        -moz-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+
     }
 
     &-body{

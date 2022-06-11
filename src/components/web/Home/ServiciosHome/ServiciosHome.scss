@@ -47,17 +47,20 @@
                 height: 650px;             
                 background-color: rgba(255, 255, 255, 0.5);
                 border-radius: 0 !important;
-                box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1) !important;
-                -webkit-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1) !important;
-                -moz-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1) !important;           
+                box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+                -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+                -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
                 &:hover{
                     transform: scale(1.0);
                     transition: all 0.3s ease-in !important;
-                    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4) !important;
-                    -webkit-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4) !important;
-                    -moz-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4) !important; 
-                    
+                    border-color: transparent !important;
+                    border: none;
+                    box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+                    -webkit-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+                    -moz-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+
                 }
+            
 
                 h3{
                     padding-top: 10px;
