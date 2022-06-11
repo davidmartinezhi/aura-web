@@ -4,6 +4,9 @@ import { Route, Switch } from "react-router-dom";
 //Navbar
 import Navbar from "../components/web/NavBar/Navbar";
 
+//Footer
+import Footer from "../components/web/Footer/Footer";
+
 
 
 export default function LayoutPublic(props) {
@@ -13,6 +16,7 @@ export default function LayoutPublic(props) {
     <>
       <Navbar />
       <LoadRoutes routes={routes} />
+      <Footer/>
     </>
   );
 }
