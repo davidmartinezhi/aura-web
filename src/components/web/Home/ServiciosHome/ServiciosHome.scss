@@ -1,7 +1,7 @@
 .servicios-home{
     height: 100%;
     width: 100vw;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,49 +10,59 @@
 
     &-titulo{
         h1{
-            color: #fff;
+            color: rgb(47, 47, 47);
         }
     }
 
     &-servicio{
         width: 100vw !important;
-        height: 100%;
+        height: 100% !important;
         background-color: transparent !important;
         border-style: none;
         display: flex;
         justify-content: center;
 
-
+        div.more-btn{
+            align-self: flex-end !important;
+            justify-self: flex-end !important;
+            width: 100% !important;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+        }
 
         .col, .col-sm-5, .col-lg-3{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
+            margin-bottom: 20px;
 
             .card{
-                padding: 0;
                 margin: 0;
+                padding: 0;
+                border: none !important;
                 margin-top: 30px;
                 width: 100%;
-                height: 650px;
-                border-radius: 0;
-                background-color: rgba(0, 0, 0, 0.5);
-                box-shadow: 5px 10px 20px 1px rgba(86, 86, 86, 0.2) !important;
-                -webkit-box-shadow: 5px 10px 20px 1px rgba(86, 86, 86, 0.2) !important;
-                -moz-box-shadow: 5px 10px 20px 1px rgba(86, 86, 86, 0.2) !important;
+                height: 650px;             
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 0 !important;
+                box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1) !important;
+                -webkit-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1) !important;
+                -moz-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1) !important;           
                 &:hover{
-                    transform: scale(1.02);
+                    transform: scale(1.0);
                     transition: all 0.3s ease-in !important;
-                    box-shadow: 5px 10px 20px 5px rgba(86, 86, 86, 0.6) !important;
-                    -webkit-box-shadow: 5px 10px 20px 5px rgba(86, 86, 86, 0.6) !important;
-                    -moz-box-shadow: 5px 10px 20px 5px rgba(86, 86, 86, 0.6) !important;
+                    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4) !important;
+                    -webkit-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4) !important;
+                    -moz-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.4) !important; 
+                    
                 }
 
-                h2{
+                h3{
                     padding: 10px;
                     text-align: center;
-                    color: #fff;
+                    color: rgb(77,77,77);
                 }
         
                 p{
@@ -70,14 +80,28 @@
                 img{
                     overflow: hidden;
                     min-height: 250px;
+
                 }
 
                 .btn{
                     background-color: transparent;
                     border-color: transparent;
                     span{
-                        color: #fff;
-                        font-weight: bold;
+                        color: rgba(255, 255, 255);
+                
+                    }
+                    background-color: rgba(77,77,77) !important;
+                    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
+                    -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
+                    -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
+                    &:hover{
+                        
+                        transform: scale(1.02);
+                        border-color: transparent;
+                        transition: all 0.3s ease-in !important;
+                        box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
+                        -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
+                        -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
                     }
                 }
             }

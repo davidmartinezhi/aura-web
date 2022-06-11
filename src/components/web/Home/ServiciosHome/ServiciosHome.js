@@ -17,16 +17,19 @@ export default function ServiciosHome() {
       <Row className="servicios-home-servicio">
       <Col sm={5} lg={3}>
           <Card >
-            <Card.Img variant="top" src={brandingPhoto} />
+            <Card.Img variant="top" src={brandingPhoto2} />
             <Card.Body>
-              <Card.Title><h2>Branding</h2></Card.Title>
+              <Card.Title><h3>Branding</h3></Card.Title>
               <Card.Text>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
+              <div className="more-btn">
               <Button><span>Conocer más</span></Button>
+              </div>
+              
             </Card.Body>
           </Card>
         </Col>
@@ -34,14 +37,16 @@ export default function ServiciosHome() {
           <Card >
             <Card.Img variant="top" src={marketingPhoto} />
             <Card.Body>
-              <Card.Title><h2>Márketing digital</h2></Card.Title>
+              <Card.Title><h3>Márketing Digital</h3></Card.Title>
               <Card.Text>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
+              <div className="more-btn">
               <Button><span>Conocer más</span></Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -49,14 +54,16 @@ export default function ServiciosHome() {
           <Card >
             <Card.Img variant="top" src={webPhoto} />
             <Card.Body>
-              <Card.Title><h2>Desarrollo Web</h2></Card.Title>
+              <Card.Title><h3>Aplicaciones Web</h3></Card.Title>
               <Card.Text>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
+              <div className="more-btn">
               <Button><span>Conocer más</span></Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -64,14 +71,16 @@ export default function ServiciosHome() {
           <Card>
             <Card.Img variant="top" src={softwarePhoto} />
             <Card.Body>
-              <Card.Title><h2>Software a la medida</h2></Card.Title>
+              <Card.Title><h3>Desarrollo de Software</h3></Card.Title>
               <Card.Text>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
+              <div className="more-btn">
               <Button><span>Conocer más</span></Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>

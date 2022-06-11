@@ -59,22 +59,23 @@ export default function MainBannerParticles({ children }) {
           },
           particles: {
             color: {
-              value: ["#aaa"],
+              value: ["#fff", "#d7d7d7", "#cacaca"],
             },
             links: {
               color: [
-                "#fff",
+                "#cacaca",
                 "#87CEEB",
-                "#ffff00",
                 "#ffa500",
                 "#FE9AB6",
-                "#90E0F7",
+                "#00bfff",
+                "#ff8800",
+                "#af2b2b"
               ],
-              //white, sky blue, yellow, orange, pink, blue
+              //white, sky blue, , orange, pink, blue, naranja, rojo
               distance: 150,
               enable: true,
-              opacity: 0.7,
-              width: 2,
+              opacity: 0.8,
+              width: 3,
             },
             collisions: {
               enable: true,
@@ -92,12 +93,12 @@ export default function MainBannerParticles({ children }) {
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 1000,
               },
-              value: 100,
+              value: 180,
             },
             opacity: {
-              value: 0.5,
+              value: 0.9,
             },
             shape: {
               type: "circle",
