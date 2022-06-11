@@ -1,15 +1,82 @@
 .clientes-home{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0,0,0,0.2);
+    
+    background-color: rgba(0,0,0,0);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 
     &-titulo{
         h1{
-            color: #fff;
+            color: rgb(47,47,47);
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.col-md-3, .col-6{
+    display: flex;
+    justify-content: center;
+}
+.client-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 15rem;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: none;
+    border-color: transparent !important;
+    border-radius: 10px !important;
+    box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+    -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+    &:hover{
+        transform: scale(1.0);
+        transition: all 0.3s ease-in !important;
+        border-color: transparent !important;
+        border: none;
+        --tw-shadow: inset 5px 10px 20px 1px  rgba(0,0,0,.3) !important;
+        box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow) !important;
+        -webkit-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow) !important;
+        -moz-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow) !important;
+    }
+
+    &-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    &-logo{
+        max-width: 9rem;
+        max-height: 9rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .client-card{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .client-card{
+        width: 7rem;
+        height: 7rem;
+
+        &-logo{
+            max-width: 5rem;
+            max-height: 5rem;
         }
     }
 }

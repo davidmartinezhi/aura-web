@@ -15,7 +15,7 @@ export default function NosotrosHome() {
           <Button className="mb-3" ><span>Conocer más</span></Button>
           </div>
           </Row>
-          <Row className="nosotros-home-stats pt-3">
+          {/* <Row className="nosotros-home-stats pt-3">
           <Col  md={3}>
             <Card className="nosotros-card">
               <Card.Body className="nosotros-card-body">
@@ -40,7 +40,7 @@ export default function NosotrosHome() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
     </Container>
   )
 }

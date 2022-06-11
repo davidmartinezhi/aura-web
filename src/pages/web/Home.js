@@ -16,7 +16,7 @@ export default function Home() {
           <Col xs={1} sm={2} />
           <Col xs={10} sm={8}>
             <h2>
-              EVOLUCIONA A <br/>LA ERA DIGITAL
+              EVOLUCIONA A LA<br/>  NUEVA ERA DIGITAL
             </h2>
             <h3>
               Digitaliza Tu Negocio Con Nosotros

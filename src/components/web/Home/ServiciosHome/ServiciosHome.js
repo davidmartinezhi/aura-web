@@ -11,7 +11,7 @@ import "./ServiciosHome.scss";
 export default function ServiciosHome() {
   return (
     <Container fluid className="servicios-home">
-      <Row className="servicios-home-titulo pt-5 pb-5">
+      <Row className="servicios-home-titulo pt-5">
         <h1>Servicios</h1>
       </Row>
       <Row className="servicios-home-servicio">

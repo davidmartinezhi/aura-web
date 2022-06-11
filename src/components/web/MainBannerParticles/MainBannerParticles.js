@@ -34,7 +34,7 @@ export default function MainBannerParticles({ children }) {
               value: "transparent",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 120,
           interactivity: {
             events: {
               onClick: {
@@ -88,14 +88,14 @@ export default function MainBannerParticles({ children }) {
               },
               random: false,
               speed: 2,
-              straight: false,
+              straight: true,
             },
             number: {
               density: {
                 enable: true,
                 area: 1000,
               },
-              value: 180,
+              value: 150,
             },
             opacity: {
               value: 0.9,
