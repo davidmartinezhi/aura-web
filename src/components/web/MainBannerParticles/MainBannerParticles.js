@@ -88,7 +88,7 @@ export default function MainBannerParticles({ children }) {
               },
               random: false,
               speed: 2,
-              straight: true,
+              straight: false,
             },
             number: {
               density: {
