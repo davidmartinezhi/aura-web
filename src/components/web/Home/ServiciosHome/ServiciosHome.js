@@ -6,6 +6,8 @@ import brandingPhoto2 from "../../../../assets/img/jpg/branding2.jpg";
 import marketingPhoto from "../../../../assets/img/jpg/marketing.jpg";
 import webPhoto from "../../../../assets/img/jpg/webdev.jpg";
 import softwarePhoto from "../../../../assets/img/jpg/software.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import "./ServiciosHome.scss";
 
 export default function ServiciosHome() {
@@ -27,7 +29,7 @@ export default function ServiciosHome() {
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
               <div className="more-btn">
-              <Button><span>Conocer más</span></Button>
+              <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
               </div>
               
             </Card.Body>
@@ -45,7 +47,7 @@ export default function ServiciosHome() {
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
               <div className="more-btn">
-              <Button><span>Conocer más</span></Button>
+              <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
               </div>
             </Card.Body>
           </Card>
@@ -62,7 +64,7 @@ export default function ServiciosHome() {
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
               <div className="more-btn">
-              <Button><span>Conocer más</span></Button>
+              <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
               </div>
             </Card.Body>
           </Card>
@@ -79,7 +81,7 @@ export default function ServiciosHome() {
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
               <div className="more-btn">
-              <Button><span>Conocer más</span></Button>
+              <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
               </div>
             </Card.Body>
           </Card>
