@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col, Carousel, Button } from "react-bootstrap";
 import testPhoto from "../../../../assets/img/stars.jpg";
 import naroa from "../../../../assets/img/branding/naroa.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 import "./PortafolioHome.scss";
 
@@ -19,7 +21,7 @@ export default function PortafolioHome() {
             </div>
             <Carousel.Caption>
             <h2 className="p-3">Branding</h2>
-              <Button className="m-3" ><span>Conocer más</span></Button>
+            <Button className="m-3"><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -28,7 +30,7 @@ export default function PortafolioHome() {
             </div>
             <Carousel.Caption>
             <h2 className="p-3">Branding</h2>
-              <Button className="m-3" ><span>Conocer más</span></Button>
+            <Button className="m-3"><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -37,7 +39,7 @@ export default function PortafolioHome() {
             </div>
             <Carousel.Caption>
               <h2 className="p-3">Branding</h2>
-              <Button className="m-3" ><span>Conocer más</span></Button>
+              <Button className="m-3"><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
