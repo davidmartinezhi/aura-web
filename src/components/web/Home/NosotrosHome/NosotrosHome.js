@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Button, Card} from "react-bootstrap";
 import testPhoto from "../../../../assets/img/stars.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import './NosotrosHome.scss'
 
 export default function NosotrosHome() {
@@ -12,7 +14,7 @@ export default function NosotrosHome() {
         <Row>
           <div className="nosotros-home-caption">
           <p className="m-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <Button className="mb-3" ><span>Conocer más</span></Button>
+          <Button className=" mt-3 mb-3"><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
           </div>
           </Row>
           {/* <Row className="nosotros-home-stats pt-3">
