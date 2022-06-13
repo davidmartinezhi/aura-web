@@ -29,6 +29,8 @@
             display: flex;
             align-items: flex-end;
             justify-content: flex-start;
+            opacity: 1;
+
         }
 
         .col, .col-sm-5, .col-lg-3{
@@ -88,18 +90,20 @@
                 }
 
                 .btn{
-                    background-color: transparent;
+                    background-color: transparent !important;
                     border-color: transparent;
+                    color: transparent;
+
+                    
                     span{
-                        color: rgba(255, 255, 255);
-                
+                        color: rgb(77,77,77);
                     }
-                    background-color: rgba(77,77,77) !important;
+                    
                     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
                     -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
                     -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
                     &:hover{
-                        
+                        color: rgb(77,77,77);
                         transform: scale(1.02);
                         border-color: transparent;
                         transition: all 0.3s ease-in !important;

@@ -39,6 +39,7 @@
         transform: scale(1.0);
         transition: all 0.3s ease-in !important;
         border-color: transparent !important;
+        background-color: rgba(0,0,0,0.0);
         border: none;
         box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
         -webkit-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
@@ -46,8 +47,31 @@
 
     }
 
+    &-overlay{
+        opacity: 0;
+        transition: all 0.3s ease-in !important;
+
+        .btn{
+            background-color: transparent !important;
+            color: transparent;
+            span{
+                color: rgb(77,77,77);
+            }
+
+            &:hover{
+                color: rgb(77,77,77);
+            }
+        }
+
+        :hover > & {
+            opacity: 1;
+            transition: all 0.2s ease-out !important;
+        }
+    }
+
     &-body{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;

@@ -29,7 +29,8 @@ export default function ServiciosHome() {
                 of type and scrambled it to make a type specimen book.</p>
               </Card.Text>
               <div className="more-btn">
-              <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
+              <Button className='mt-2'><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
+              
               </div>
               
             </Card.Body>
