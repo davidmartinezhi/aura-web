@@ -25,9 +25,9 @@ export default function ServiciosHome() {
               <Card.Text>
                 <p>Comprometidos con encontrar <b>Las Soluciones Específica Que Tu Negocio Necesita</b>. <br/>Generamos estrategias que buscan generar mejores rendimientos para tu empresa, utilizando los servicios digitales que ofrecemos.</p>
               </Card.Text>
-              <div className="more-btn">
+              {/* <div className="more-btn">
               <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
-              </div>
+              </div> */}
             </Card.Body>
           </Card>
         </Col>
@@ -40,10 +40,10 @@ export default function ServiciosHome() {
                 <p>Encontramos la identidad unica de tu empresa para de esta manera generar <b>Valor y Rentabilidad</b> a tu marca y nos encargamos de todo proceso.<br/> Incluyendo proceso creativo y tramites de registro e identidad
 empresarial.</p>
               </Card.Text>
-              <div className="more-btn">
+              {/* <div className="more-btn">
               <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
               
-              </div>
+              </div> */}
               
             </Card.Body>
           </Card>
@@ -57,9 +57,9 @@ empresarial.</p>
                 <p>Aplicamos estrategias de comercialización llevadas a cabo en los medios digitales. 
                 <br/>Generamos estrategias especificas para cada uno de nuestros clientes, ofreciendo así; <b>Ideas Que Rompen Redes</b>.</p>
               </Card.Text>
-              <div className="more-btn">
+              {/* <div className="more-btn">
               <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
-              </div>
+              </div> */}
             </Card.Body>
           </Card>
         </Col>
@@ -71,9 +71,9 @@ empresarial.</p>
               <Card.Text>
                 <p>Desarrollo integral de codigo para <b>Crear, Actualizar y/o Optimizar</b> el corazón informativo de tu negocio. <br/>Desarrollamos lo que tu negocio necesite; Incluyendo desarrollo de bases de datos, aplicaciones web, aplicaciones mobiles y más.</p>
               </Card.Text>
-              <div className="more-btn">
+              {/* <div className="more-btn">
               <Button><span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight}/> </Button>
-              </div>
+              </div> */}
             </Card.Body>
           </Card>
         </Col>

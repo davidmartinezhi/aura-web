@@ -26,9 +26,9 @@ export default function NosotrosHome() {
 
           </p>
 
-          <Button className=" mt-3 mb-3">
+          {/* <Button className=" mt-3 mb-3">
             <span>Conocer más</span> <FontAwesomeIcon icon={faArrowRight} />{" "}
-          </Button>
+          </Button> */}
         </div>
       </Row>
       {/* <Row className="nosotros-home-stats pt-3">
