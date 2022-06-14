@@ -1,32 +1,22 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import logoAuraWhite from "../../../assets/img/logo/Blanco/Aura_Blanco.png";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faInstagram,
     faFacebook,
   } from "@fortawesome/free-brands-svg-icons";
-
-import Newsletter from "../Newsletter/Newsletter";
-
-import "./Footer.scss";
-
-export default function Footer() {
+import './ContactHome.scss'
+export default function ContactHome() {
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col className="brand">
-          <img className="brand-logo" src={logoAuraWhite} alt="Aura logo" />
-        </Col>
+    <Container fluid className="contacto-home">
+      <Row className="contacto-home-titulo pt-5">
+        <h1>Contacto</h1>
       </Row>
-      {/* <Row className="footer-row">
-        <Col className="footer-row-col">
-          {" "}
-          <Newsletter />
-        </Col>
-        <Col className="footer-row-col">
-          <h1>Contáctanos</h1>
-          <div className="social-media">
+      <Row className="contact-home-row">
+        <Col xs={12} md={6} className="contact-home-row-col">
+        <h1>Siguenos</h1>
+          <div className="social-media-home">
+          
             {" "}
             <a
               href="https://www.facebook.com/auraconsultoriamx"
@@ -43,7 +33,11 @@ export default function Footer() {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
-          <div className="contact-info">
+          </Col>
+          <Col xs={12} md={6}>
+          
+          <div className="contact-info-home">
+          <h1>Contactanos</h1>
             {" "}
             <a
               href="mailto:auraconsultoriayservicios@gmail.com"
@@ -61,7 +55,7 @@ export default function Footer() {
             </a>
           </div>
         </Col>
-      </Row> */}
-    </Container>
-  );
+      </Row>
+      </Container>
+  )
 }

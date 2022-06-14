@@ -6,7 +6,7 @@ import NosotrosHome from '../../components/web/Home/NosotrosHome/NosotrosHome';
 import ServiciosHome from '../../components/web/Home/ServiciosHome/ServiciosHome';
 import PortafolioHome from '../../components/web/Home/PortafolioHome/PortafolioHome';
 import ClientesHome from '../../components/web/Home/ClientesHome/ClientesHome';
-
+import ContactHome from '../../components/web/Home/ContactHome/ContactHome';
 export default function Home() {
   return (
     <>
@@ -38,6 +38,8 @@ export default function Home() {
         {/* Clientes */}
         <ClientesHome/>
 
+        {/* Contacto */}
+        <ContactHome/>
     </>
   )
 }
