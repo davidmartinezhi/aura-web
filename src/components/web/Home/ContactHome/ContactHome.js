@@ -8,14 +8,15 @@ import {
 import './ContactHome.scss'
 export default function ContactHome() {
   return (
-    <Container fluid className="contacto-home" id="contacto">
-      <Row className="contacto-home-titulo pt-5">
+    <Container fluid className="contacto-home pb-5" id="contacto">
+      <Row className="contacto-home-titulo pt-5 pb-5">
         <h1>Contacto</h1>
       </Row>
       <Row className="contact-home-row">
         <Col xs={12} md={6} className="contact-home-row-col">
+        <div className="social-media-home">
         <h1>Siguenos</h1>
-          <div className="social-media-home">
+          <div className="social-media-home-link">
           
             {" "}
             <a
@@ -32,6 +33,7 @@ export default function ContactHome() {
             >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
+          </div>
           </div>
           </Col>
           <Col xs={12} md={6}>
