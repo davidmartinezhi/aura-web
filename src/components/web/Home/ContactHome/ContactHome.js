@@ -8,7 +8,7 @@ import {
 import './ContactHome.scss'
 export default function ContactHome() {
   return (
-    <Container fluid className="contacto-home">
+    <Container fluid className="contacto-home" id="contacto">
       <Row className="contacto-home-titulo pt-5">
         <h1>Contacto</h1>
       </Row>

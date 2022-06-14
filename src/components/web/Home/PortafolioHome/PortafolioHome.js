@@ -9,7 +9,7 @@ import "./PortafolioHome.scss";
 
 export default function PortafolioHome() {
   return (
-    <Container fluid className="portafolio-home">
+    <Container fluid className="portafolio-home" id="portafolio">
       <Row className="portafolio-home-titulo pt-5">
         <h1>Portafolio</h1>
       </Row>

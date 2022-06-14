@@ -16,7 +16,7 @@
     }
 
     &-caption{
-        width: 80vw !important;
+        width: 70vw !important;
         text-align: center;
 
         p{
@@ -117,6 +117,11 @@
 }
 
 @media (max-width: 950px) {
+    .nosotros-home{
+        &-caption{
+            width: 90vw;
+        }
+    }
     .nosotros-card{
         width: 10rem;
         height: 10rem;

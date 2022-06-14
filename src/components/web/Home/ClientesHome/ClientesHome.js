@@ -7,7 +7,7 @@ import './ClientesHome.scss'
 
 export default function ClientesHome() {
   return (
-    <Container fluid className="clientes-home">
+    <Container fluid className="clientes-home" id="clientes">
         <Row className='clientes-home-titulo pt-5'>
           <h1>Clientes</h1>
         </Row>

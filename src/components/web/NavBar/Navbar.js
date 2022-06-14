@@ -64,10 +64,10 @@ function Navbar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="/servicios">Servicios</Nav.Link>
-                <Nav.Link href="/portafolio">Portafolio</Nav.Link>
-                <Nav.Link href="/clientes">Clientes</Nav.Link>
-                <Nav.Link href="/contacto">Contacto</Nav.Link>
+                <Nav.Link href="#servicios">Servicios</Nav.Link>
+                <Nav.Link href="#portafolio">Portafolio</Nav.Link>
+                <Nav.Link href="#clientes">Clientes</Nav.Link>
+                <Nav.Link href="#contacto">Contacto</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </NavbarBootstrap.Offcanvas>

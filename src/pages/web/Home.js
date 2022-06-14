@@ -36,10 +36,10 @@ export default function Home() {
         <PortafolioHome/>
 
         {/* Clientes */}
-        <ClientesHome/>
+        <ClientesHome />
 
         {/* Contacto */}
-        <ContactHome/>
+        <ContactHome />
     </>
   )
 }
