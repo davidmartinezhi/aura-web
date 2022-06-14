@@ -90,6 +90,28 @@
     .client-card{
         width: 10rem;
         height: 10rem;
+        
+        .btn{
+            background-color: transparent !important;
+            color: transparent;
+            span{
+                color: rgb(77,77,77);
+                
+            }
+
+            .fa-arrow-right{
+                height: 0px;
+            }
+
+            &:hover{
+                color: rgb(77,77,77);
+            }
+        }
+
+        :hover > & {
+            opacity: 1;
+            transition: all 0.2s ease-out !important;
+        }
     }
 }
 
@@ -97,6 +119,25 @@
     .client-card{
         width: 7rem;
         height: 7rem;
+        .btn{
+            background-color: transparent !important;
+            color: transparent;
+            span{
+                color: rgb(77,77,77);
+            }
+            .fa-arrow-right{
+                height: 0px;
+            }
+
+            &:hover{
+                color: rgb(77,77,77);
+            }
+        }
+
+        :hover > & {
+            opacity: 1;
+            transition: all 0.2s ease-out !important;
+        }
 
         &-logo{
             max-width: 5rem;
