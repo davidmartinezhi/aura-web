@@ -13,10 +13,52 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            text-align: center;
+
+            h1{
+                color: rgb(255,255,255);
+            }
         }
     }
+}
 
+//Social Media
+.social-media{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 
+    a{
+        padding: 15px;
+        color: rgb(105, 105, 105);
+        &:hover{
+            
+            color: rgb(255,255,255);
+        }
+        .svg-inline--fa{
+            height: 40px !important;
+        }  
+    }
+}
+
+//contact info
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(105, 105, 105);
+        &:hover{
+            
+            color: rgb(255,255,255);
+        }
+        .svg-inline--fa{
+            height: 40px !important;
+        }  
+    }
 }
 
 
