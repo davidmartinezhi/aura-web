@@ -13,18 +13,15 @@ import "./Footer.scss";
 
 export default function Footer() {
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" id="contacto">
       <Row>
         <Col className="brand">
           <img className="brand-logo" src={logoAuraWhite} alt="Aura logo" />
         </Col>
       </Row>
-      {/* <Row className="footer-row">
-        <Col className="footer-row-col">
-          {" "}
-          <Newsletter />
-        </Col>
-        <Col className="footer-row-col">
+      <Row className="footer-row">
+        
+        <Col className="footer-row-col pb-3">
           <h1>Contáctanos</h1>
           <div className="social-media">
             {" "}
@@ -61,7 +58,11 @@ export default function Footer() {
             </a>
           </div>
         </Col>
-      </Row> */}
+        <Col className="footer-row-col pb-3">
+          {" "}
+          <Newsletter />
+        </Col>
+      </Row>
     </Container>
   );
 }

@@ -39,7 +39,7 @@ export default function Home() {
         <ClientesHome />
 
         {/* Contacto */}
-        <ContactHome />
+        {/* <ContactHome /> */}
     </>
   )
 }

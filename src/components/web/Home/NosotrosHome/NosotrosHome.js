@@ -7,9 +7,9 @@ import "./NosotrosHome.scss";
 
 export default function NosotrosHome() {
   return (
-    <Container fluid className="nosotros-home">
+    <Container fluid className="nosotros-home" id="nosotros">
       <Row className="nosotros-home-titulo pt-5">
-        <h1>Nosotros</h1>
+        <h1>Sobre Aura</h1>
       </Row>
       <Row>
         <div className="nosotros-home-caption">

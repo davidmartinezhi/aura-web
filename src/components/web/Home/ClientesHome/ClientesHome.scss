@@ -50,10 +50,12 @@
     &-overlay{
         opacity: 0;
         transition: all 0.3s ease-in !important;
-
+        margin: 0;
+        padding: 0;
         .btn{
             background-color: transparent !important;
             color: transparent;
+
             span{
                 color: rgb(77,77,77);
             }
@@ -81,15 +83,15 @@
     }
 
     &-logo{
-        max-width: 9rem;
-        max-height: 9rem;
+        max-width: 8rem;
+        max-height: 8rem;
     }
 }
 
 @media (max-width: 950px) {
     .client-card{
-        width: 10rem;
-        height: 10rem;
+        width: 15rem;
+        height: 12rem;
         
         .btn{
             background-color: transparent !important;
@@ -117,8 +119,8 @@
 
 @media (max-width: 300px) {
     .client-card{
-        width: 7rem;
-        height: 7rem;
+        width: 8rem;
+        height: 8rem;
         .btn{
             background-color: transparent !important;
             color: transparent;
