@@ -11,7 +11,7 @@ import "./PortafolioHome.scss";
 export default function PortafolioHome() {
   const [serviceToShow, setServiceToShow] = useState("1");
   return (
-    <Container fluid className="portafolio-home" id="portafolio">
+    <Container fluid className="portafolio-home pb-3" id="portafolio">
       <Row className="portafolio-home-titulo pt-5">
         <h1>Portafolio</h1>
       </Row>
