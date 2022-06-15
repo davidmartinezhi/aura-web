@@ -17,7 +17,7 @@ export default function ServiciosHome() {
         <h1>Servicios</h1>
       </Row>
       <Row className="servicios-home-servicio">
-        <Col sm={5} lg={3}>
+        <Col sm={5} xl={3}>
           <Card>
             <Card.Img variant="top" src={consultingPhoto} />
             <Card.Body>
@@ -39,7 +39,7 @@ export default function ServiciosHome() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={5} lg={3}>
+        <Col sm={5} xl={3}>
           <Card>
             <Card.Img variant="top" src={brandingPhoto2} />
             <Card.Body>
@@ -61,7 +61,7 @@ export default function ServiciosHome() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={5} lg={3}>
+        <Col sm={5} xl={3}>
           <Card>
             <Card.Img variant="top" src={marketingPhoto} />
             <Card.Body>
@@ -83,7 +83,7 @@ export default function ServiciosHome() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={5} lg={3}>
+        <Col sm={5} xl={3}>
           <Card>
             <Card.Img variant="top" src={webPhoto} />
             <Card.Body>
