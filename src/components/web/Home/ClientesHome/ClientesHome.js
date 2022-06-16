@@ -22,7 +22,7 @@ export default function ClientesHome() {
           <h1>Clientes</h1>
         </Row>
         <Row>
-        <Col xs={12} md={3}>
+        <Col xs={12} sm={6} md={3}>
             <Card className="client-card">
               <Card.Body className="client-card-body">
                 <img className="client-card-logo" src={terniumLogo} alt="tec de monterrey logo" />
@@ -32,7 +32,7 @@ export default function ClientesHome() {
               </Card.Body>
             </Card>
           </Col>
-        <Col xs={12}  md={3}>
+        <Col xs={12} sm={6} md={3}>
             <Card className="client-card">
             
               <Card.Body className="client-card-body">
@@ -45,7 +45,7 @@ export default function ClientesHome() {
 
             </Card>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={12} sm={6} md={3}>
             <Card className="client-card">
               <Card.Body className="client-card-body">
                 <img className="client-card-logo" src={joyeriaSuizaLogo} alt="tec de monterrey logo" />
@@ -55,7 +55,7 @@ export default function ClientesHome() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={12} sm={6} md={3}>
             <Card className="client-card">
               <Card.Body className="client-card-body">
                 <img className="client-card-logo" src={vanttecLogo} alt="tec de monterrey logo" />
@@ -65,7 +65,7 @@ export default function ClientesHome() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={12} sm={6} md={3}>
             <Card className="client-card">
               <Card.Body className="client-card-body">
                 <img className="client-card-logo" src={ubiqueteLogo} alt="tec de monterrey logo" />
@@ -75,7 +75,7 @@ export default function ClientesHome() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={12} sm={6} md={3}>
             <Card className="client-card">
               <Card.Body className="client-card-body">
                 <img className="client-card-logo" src={riegoSolidoLogo} alt="tec de monterrey logo" />

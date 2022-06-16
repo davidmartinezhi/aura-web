@@ -1,8 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Carousel, Card } from "react-bootstrap";
+import { Container, Row, Col, Carousel, Card, Button } from "react-bootstrap";
 import vanttec from "../../../../../assets/img/branding/vanttecwebpage.png";
 import ternium from "../../../../../assets/img/branding/Ternium.png";
 
+//logos
+import vanttecLogo from "../../../../../assets/img/clientes-logos/vanttec.png";
+import terniumLogo from "../../../../../assets/img/clientes-logos/Ternium_Logo.svg.png";
 export default function PortafolioSoftwareHome() {
   return (
     <>
@@ -12,9 +15,10 @@ export default function PortafolioSoftwareHome() {
             <Row className="brands-card-row">
               <Col xs={12} lg={6} className="brand-data">
                 <Row className="brand-data-stats">
-                  <h3>Vanttec</h3>
-                  <p>Desarrollo Web para competencias internacionales Roboboat y Robosub.</p>
-
+                <img className="logo-brand" src={vanttecLogo} alt="vantteclogo"/>
+                  <h3>Desarrollo Web</h3>
+                  <p>Pagina principal de la organización y competidora en competencias internacionales <b>Roboboat</b> y <b>RoboSub</b>.</p>
+                  <Button className="pb-3" href={"https://vanttec.com/"} target="_blank">Visitar pagina web</Button>
                 </Row>
               </Col>
               <Col xs={12} lg={6}>
@@ -29,10 +33,10 @@ export default function PortafolioSoftwareHome() {
             <Row className="brands-card-row">
               <Col xs={12} lg={6} className="brand-data">
                 <Row className="brand-data-stats">
-                  <h3>Ternium</h3>
-                  <p>Visualización de Gas Metano Mediante Mapas de Calor</p>
-                  <p>Mapa de calor con información actualizada en tiempo real y personalizable mediante herramientas de filtros y análisis de datos.
-                     Prevenir contingencias en las plantas de producción de acero de Ternium.</p>
+                  <img className="logo-brand" src={terniumLogo} alt="ternium logo"/>
+                  <h3>Visualización de Gas Metano Mediante Mapas de Calor.</h3>
+                  <p>Mapas de calor actualizados en tiempo real y personalizables mediante herramientas de filtros y análisis de datos.
+                     Con el fin de prevenir contingencias en las plantas de producción de acero de Ternium.</p>
 
                 </Row>
               </Col>

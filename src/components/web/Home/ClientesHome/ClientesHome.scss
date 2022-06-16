@@ -17,7 +17,7 @@
     }
 }
 
-.col-md-3, .col-6{
+.col-md-3, .col-sm-6, .col-md-3{
     display: flex;
     justify-content: center;
 }
@@ -117,7 +117,7 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
     .client-card{
         width: 8rem;
         height: 8rem;
