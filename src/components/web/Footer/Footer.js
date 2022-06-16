@@ -13,7 +13,7 @@ import "./Footer.scss";
 
 export default function Footer() {
   return (
-    <Container fluid className="footer" id="contacto">
+    <Container fluid className="footer pt-3" id="contacto">
       <Row>
         <Col className="brand">
           <img className="brand-logo" src={logoAuraWhite} alt="Aura logo" />
