@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Carousel, Card } from "react-bootstrap";
 import naora from "../../../../../assets/img/branding/naroa.png";
-import "./PortafolioBrandingHome.scss";
 
 export default function PortafolioBrandingHome() {
   return (
+    <>
       <Row className="projects-card-body-row">
         <Carousel variant="dark" indicators={false}>
           <Carousel.Item>
@@ -44,5 +44,6 @@ export default function PortafolioBrandingHome() {
           </Carousel.Item>
         </Carousel>
       </Row>
+      </>
   );
 }

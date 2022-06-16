@@ -11,7 +11,7 @@ import "./PortafolioHome.scss";
 export default function PortafolioHome() {
   const [serviceToShow, setServiceToShow] = useState("1");
   return (
-    <Container fluid className="portafolio-home pb-3" id="portafolio">
+    <Container fluid className="portafolio-home pb-5" id="portafolio">
       <Row className="portafolio-home-titulo pt-5">
         <h1>Portafolio</h1>
       </Row>
@@ -70,27 +70,3 @@ export default function PortafolioHome() {
   );
 }
 
-
-
-function RoboSubCard() {
-  return (
-    <Row className="vehicules-card-row">
-      <h1>Coming Soon...</h1>
-    </Row>
-  );
-}
-
-function DroneCard() {
-  return (
-    <Row className="vehicules-card-row">
-    <h1>Coming Soon...</h1>
-  </Row>
-  );
-}
-function SDV() {
-  return (
-    <Row className="vehicules-card-row">
-    <h1>Coming Soon...</h1>
-  </Row>
-  );
-}
