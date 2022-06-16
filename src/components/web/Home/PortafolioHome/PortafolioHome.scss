@@ -147,6 +147,7 @@
 
         .brand-card{
             width: 80%;
+            border-color: transparent !important;
         }
 
         img.logo-brand{
@@ -221,7 +222,7 @@
     height: 80%;
     width: 80%;
     border: none !important;
-    border-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0) !important;
     box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
     -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
     -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
@@ -279,7 +280,7 @@
     margin: 0;
     padding: 0;
     border-radius: 10px;
-    border-color: transparent !important;
+    border-color: rgba(0, 0, 0, 0) !important;
     box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
     -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
     -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
@@ -317,7 +318,9 @@ a.nav-link.active{
     background-color: rgba(77, 77, 77) !important;
     border-color: transparent !important;
     color: rgb(255,255,255) !important;
-    width: 80% !important;
+    width: 60% !important;
+    height: 38px;
+
     span{
         color: rgb(47, 47, 47);  
     }
