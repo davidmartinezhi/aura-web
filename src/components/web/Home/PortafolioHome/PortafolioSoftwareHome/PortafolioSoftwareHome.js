@@ -5,7 +5,7 @@ import ternium from "../../../../../assets/img/branding/Ternium.png";
 
 //logos
 import vanttecLogo from "../../../../../assets/img/clientes-logos/vanttec.png";
-import terniumLogo from "../../../../../assets/img/clientes-logos/Ternium_Logo.svg.png";
+import terniumLogo from "../../../../../assets/img/clientes-logos/ternium.png";
 export default function PortafolioSoftwareHome() {
   return (
     <>

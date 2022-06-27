@@ -11,7 +11,7 @@
 
     &-titulo{
         h1{
-            color: rgb(47,47,47);
+            color: rgb(255,255,255);
             padding-bottom: 30px;
         }
     }
@@ -32,14 +32,13 @@
     border: none;
     border-color: transparent !important;
     border-radius: 0 !important;
-    box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-    -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-    -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+    box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
+    -moz-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
     &:hover{
-        transform: scale(1.0);
+        transform: scale(1.02);
         transition: all 0.3s ease-in !important;
         border-color: transparent !important;
-        background-color: rgba(0,0,0,0.0);
         border: none;
         box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
         -webkit-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;

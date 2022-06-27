@@ -10,7 +10,7 @@
 
     &-titulo{
         h1{
-            color: rgb(47, 47, 47);
+            color: rgb(255, 255, 255);
         }
     }
 
@@ -48,19 +48,19 @@
                 width: 100%;
                 height: 620px; 
                 //height: 650px;            
-                background-color: rgba(255, 255, 255, 0.5);
+                background-color: rgba(0, 0, 0);
                 border-radius: 0 !important;
-                box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-                -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-                -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+                box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
+                -webkit-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
+                -moz-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
                 &:hover{
-                    transform: scale(1.0);
+                    transform: scale(1.02);
                     transition: all 0.3s ease-in !important;
                     border-color: transparent !important;
                     border: none;
-                    box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
-                    -webkit-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
-                    -moz-box-shadow: 5px 10px 20px 1px  rgb(0,0,0,0.3) !important;
+                    box-shadow: 5px 10px 20px 1px  rgb(255,255,255,0.3) !important;
+                    -webkit-box-shadow: 5px 10px 20px 1px  rgb(255,255,255,0.3) !important;
+                    -moz-box-shadow: 5px 10px 20px 1px  rgb(255,255,255,0.3) !important;
 
                 }
             
@@ -69,14 +69,14 @@
                     padding-top: 10px;
                     width: 100%;
                     text-align: center;
-                    color: rgb(77,77,77);
+                    color: rgb(255,255,255);
                 }
         
                 p{
                     padding: 10px;
                     font-size: 15px !important;
                     font-size: small;
-                    color: rgb(120, 120, 120);
+                    color: rgb(215, 215, 215);
                 }
 
                 &-img-top{

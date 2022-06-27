@@ -11,7 +11,7 @@ import naoraLogo from "../../../../assets/img/clientes-logos/naroa.png"
 import ubiqueteLogo from "../../../../assets/img/clientes-logos/ubiquete.PNG"
 import riegoSolidoLogo from "../../../../assets/img/clientes-logos/riego-solido.jpg"
 import joyeriaSuizaLogo from "../../../../assets/img/clientes-logos/joyeriaSuiza.jpeg"
-import vanttecLogo from "../../../../assets/img/clientes-logos/vanttec.png"
+import vanttecLogo from "../../../../assets/img/clientes-logos/vanttec_color.png"
 import terniumLogo from "../../../../assets/img/clientes-logos/Ternium_Logo.svg.png"
 import './ClientesHome.scss'
 

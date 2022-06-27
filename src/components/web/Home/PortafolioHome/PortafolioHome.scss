@@ -10,7 +10,7 @@
 
     &-titulo{
         h1{
-            color: rgb(47, 47, 47);
+            color: rgb(255, 255, 255);
         }
     }
 }
@@ -129,7 +129,7 @@
 
 //cards
 .projects-card{
-    background-color: rgba(255, 255, 255, 0.0) !important;
+    background-color: rgba(255, 255, 255, 0) !important;
     padding: 0 !important;
     border-color: transparent !important;
     min-height: 100%;
@@ -159,13 +159,15 @@
         .brand-card{
             width: 80%;
             border-color: transparent !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         img.logo-brand{
             max-width: 12rem;
             max-height: 12rem;
             padding-bottom: 2rem;
-            
         }
 
         .brand-data{
@@ -179,10 +181,10 @@
                 justify-content: center;
                 h3{
                     font-weight: bold;
-                    color: rgb(47,47,47);
+                    color: rgb(255,255,255);
                 }
                 p{
-                    color: rgb(77,77,77);
+                    color: rgb(215,215,215);
                 }
             }
         }
@@ -234,22 +236,22 @@
     width: 80%;
     border: none !important;
     border-color: rgba(255, 255, 255, 0) !important;
-    box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-    -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-    -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+    box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
+    -moz-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
 }
 
 //Nav projects
 .project-item{
-    background-color: white !important;
+    background-color: rgb(31, 31, 31) !important;
     .nav-link{
         height: 40px !important;
-        color: black;
+        color: white;
         background-color: white;
 
         &:hover{
-            color: rgb(255,255,255);
-            background-color: lightgray;
+            color: rgb(0,0,0);
+            background-color: rgb(215, 215, 215);
         }
     }
 }
@@ -269,16 +271,10 @@
 @media (max-width: 610px) {
     .project-item{
     
-        background-color: white !important;
         .nav-link{
             height: 60px !important;
-            color: black;
-            background-color: white;
+
     
-            &:hover{
-                color: white;
-                background-color: lightgray;
-            }
         }
     }   
 }
@@ -315,20 +311,19 @@
             background-color: rgba(0,0,0,0.6);
             transition: all 0.2s linear !important;
         }
-        
     }
 }
 
 a.nav-link.active{
-    background-color: rgb(47,47,47) !important;
-    color: white !important;
+    background-color: rgb(58, 58, 58) !important;
+    color: rgb(255,255,255) !important;
 }
 
 //button
 .btn{
-    background-color: rgba(77, 77, 77) !important;
+    background-color: rgba(255,255,255) !important;
     border-color: transparent !important;
-    color: rgb(255,255,255) !important;
+    color: rgb(0,0,0) !important;
     width: 60% !important;
     height: 38px;
 
@@ -351,7 +346,7 @@ a.nav-link.active{
 
     &:active, &::after, &::before, &::selection{
         border-color: transparent !important;
-        background-color: rgba(255, 255, 255, 0.5) !important;
+        background-color: rgba(255, 255, 255) !important;
     }
 }
 

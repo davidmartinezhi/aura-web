@@ -63,18 +63,17 @@ export default function MainBannerParticles({ children }) {
             },
             links: {
               color: [
+                "#fff",
                 "#cacaca",
                 "#87CEEB",
                 "#ffa500",
                 "#FE9AB6",
-                "#00bfff",
-                "#ff8800",
-                "#af2b2b"
-              ],
-              //white, sky blue, , orange, pink, blue, naranja, rojo
+                "#ff8800"
+               ],
+              //white, sky blue, orange, pink, naranja
               distance: 150,
               enable: true,
-              opacity: 0.8,
+              opacity: 0.5,
               width: 3,
             },
             collisions: {
@@ -98,7 +97,7 @@ export default function MainBannerParticles({ children }) {
               value: 150,
             },
             opacity: {
-              value: 0.9,
+              value: 0.5,
             },
             shape: {
               type: "circle",

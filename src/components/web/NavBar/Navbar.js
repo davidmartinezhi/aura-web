@@ -14,18 +14,18 @@ import "./Navbar.scss";
 
 function Navbar() {
   const [navbar, setNavBar] = useState(false);
-  const [top, setTop] = useState("light");
-  const [logo, setLogo] = useState(logoAura);
+  const [top, setTop] = useState("dark");
+  const [logo, setLogo] = useState(logoAuraWhite);
 
   const changeBackground = () => {
     if (window.innerWidth > 912) {
       setNavBar(false);
-      setTop("light");
-      setLogo(logoAura);
+      setTop("dark");
+      setLogo(logoAuraWhite);
     } else {
       setNavBar(true);
-      setTop("light");
-      setLogo(logoAura);
+      setTop("dark");
+      setLogo(logoAuraWhite);
     }
   };
 

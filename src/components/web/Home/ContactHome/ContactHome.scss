@@ -11,7 +11,7 @@
 
     &-titulo{
         h1{
-            color: rgb(47,47,47);
+            color: rgb(255,255,255);
         }
     }
     &-row{
@@ -52,10 +52,10 @@
 
         a{
             padding: 15px;
-            color: rgb(105, 105, 105);
+            color: rgb(215,215,215);
             &:hover{
                 
-                color: rgb(0, 0, 0);
+                color: rgb(255,255,255);
             }
             .svg-inline--fa{
                 height: 40px !important;
