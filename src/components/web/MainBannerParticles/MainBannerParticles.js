@@ -94,7 +94,7 @@ export default function MainBannerParticles({ children }) {
                 enable: true,
                 area: 1000,
               },
-              value: 150,
+              value: 100,
             },
             opacity: {
               value: 0.5,
