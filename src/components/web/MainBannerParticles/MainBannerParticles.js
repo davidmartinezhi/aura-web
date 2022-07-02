@@ -63,14 +63,13 @@ export default function MainBannerParticles({ children }) {
             },
             links: {
               color: [
-                "#fff",
                 "#cacaca",
                 "#87CEEB",
                 "#ffa500",
                 "#FE9AB6",
                 "#ff8800"
                ],
-              //white, sky blue, orange, pink, naranja
+              //sky blue, orange, pink, naranja
               distance: 150,
               enable: true,
               opacity: 0.5,
