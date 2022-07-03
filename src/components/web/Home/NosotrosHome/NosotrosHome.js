@@ -17,7 +17,7 @@ export default function NosotrosHome() {
             Impulsados por ideas nuevas y atrevidas, con un gran
             conocimiento tecnológico, y experiencia con clientes de alto perfil.
             Siempre siguiendo nuestros valores de confianza, respeto, transparencia y
-            coherencia. 
+            coherencia.
             Proveemos un conglomerado de servicios redondos que cubren todas las
             necesidades de nuestros clientes en esta nueva era digital, al
             brindar soluciones innovadoras y a la medida para desafíos

@@ -1,7 +1,7 @@
 .portafolio-home{
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100vw;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.4);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -26,110 +26,9 @@
     }
 }
 
-// .overlay-area{
-//     width: 100% !important;
-//     height: 100% !important;
-//     display: flex !important;
-//     justify-content: center !important;
-//     align-items: center;
-//     padding: 0 !important;
-//     margin: 0;
-//     background-color: rgba(0, 0, 0, 0);
-//     img{
-//         z-index: -1;
-//     }
-// }
-
-// h2{
-//     font-weight: bolder;
-// }
-
-// h3{
-//     font-weight: 500;
-// }
-
-// h2, h3{
-//     font-family: Arial, Helvetica, sans-serif;
-// }
-
-// div.carousel-caption{
-//     height: 100%;
-//     display: flex !important;
-//     flex-direction: column !important;
-//     justify-content: center;
-//     align-items: center;
-
-//     h2, p{
-//         color: rgb(255,255,255) !important;
-//         padding-top: 30px;
-//         font-size: 60px;
-//         font-weight: 700;
-//         background-color: rgba(0, 0, 0, 0.2);
-//     }
-
-//     p{
-//         font-size: 25px;
-//         font-weight: normal;
-//         padding-top: 0px;
-//         padding-bottom: 20px;
-//     }
-// }
-
-// @media (max-width: 400px) {
-//     div.carousel-caption{
-//         height: 100%;
-//         display: flex !important;
-//         flex-direction: column !important;
-//         justify-content: flex-end;
-//         align-items: center;
-    
-//         h2, p{
-//             color: white !important;
-//             padding-top: 30px;
-//         }
-//         h2{
-//             font-size: 30px !important;
-//         }
-    
-//         p{
-//             font-weight: normal;
-//             font-size: 12px;
-//             padding-top: 0px;
-//             padding-bottom: 20px;
-//         }
-//     }
-//   }
-
-//   .btn{
-//     border-color: transparent !important;
-//     span{
-//         color: rgba(255, 255, 255);
-        
-//     }
-//     background-color: rgba(77,77,77) !important;
-//     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
-//     -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
-//     -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0) !important;
-//     &:hover{
-        
-//         transform: scale(1.02);
-//         border-color: transparent;
-//         transition: all 0.3s ease-in !important;
-//         box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
-//         -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
-//         -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3) !important;
-//     }
-    
-
-//     &:active, &::after, &::before, &::selection{
-//         border-color: transparent !important;
-//         background-color: rgba(255, 255, 255, 0.5) !important;
-//     }
-// }
-
 //cards
 .projects-card{
-    background-color: rgba(255, 255, 255, 0) !important;
+    background-color: rgba(0,0,0,0.1) !important;
     padding: 0 !important;
     border-color: transparent !important;
     min-height: 100%;
@@ -157,8 +56,10 @@
         }
 
         .brand-card{
-            width: 80%;
+            max-width: 80%;
+            min-height: 80%;
             border-color: transparent !important;
+            border: none;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -226,15 +127,16 @@
 }
 
 .card-body{
+    height: 100%;
     width: 100%;
     border-color: transparent !important;
     padding-bottom: 30px;
 }
 
 .card-img{
-    height: 80%;
-    width: 80%;
-    border: none !important;
+    max-height: 100%;
+    min-height: 95%;
+    width: 100%;
     border-color: rgba(255, 255, 255, 0) !important;
     box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
     -webkit-box-shadow: 5px 10px 20px 1px  rgb(0, 0, 0) !important;
@@ -243,15 +145,15 @@
 
 //Nav projects
 .project-item{
-    background-color: rgb(31, 31, 31) !important;
+    background-color: rgba(0,0,0,0.4) !important;
     .nav-link{
         height: 40px !important;
         color: white;
         background-color: white;
 
         &:hover{
-            color: rgb(0,0,0);
-            background-color: rgb(215, 215, 215);
+            color: lightgray;
+            background-color: rgb(50, 50,50);
         }
     }
 }
@@ -283,14 +185,13 @@
 //project Image
 .project-card{
     max-width: 100%;
-    min-height: 100vw !important;
+    min-height: 100% !important;
     margin: 0;
     padding: 0;
-    border-radius: 10px;
     border-color: rgba(0, 0, 0, 0) !important;
-    box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-    -webkit-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
-    -moz-box-shadow: 5px 10px 20px 1px  rgb(228, 228, 228) !important;
+    box-shadow: 5px 10px 20px 1px  rgb(0,0,0) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px  rgb(0,0,0) !important;
+    -moz-box-shadow: 5px 10px 20px 1px  rgb(0,0,0) !important;
 
 
     &-overlay{
@@ -315,8 +216,8 @@
 }
 
 a.nav-link.active{
-    background-color: rgb(58, 58, 58) !important;
-    color: rgb(255,255,255) !important;
+    background-color: rgba(31, 31, 31, 0.8) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 //button
@@ -350,6 +251,45 @@ a.nav-link.active{
     }
 }
 
+
+//Social Media
+.social-media{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    a{
+        padding: 15px;
+        color: rgb(182, 182, 182);
+        &:hover{
+            
+            color: rgb(255,255,255);
+        }
+        .svg-inline--fa{
+            height: 40px !important;
+        }  
+    }
+}
+@media (max-width: 950px) {
+    .social-media{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        padding-top: 20px;
+    
+        a{
+            padding: 15px;
+            color: rgb(255,255,255);
+            &:hover{
+                
+                color: rgb(255,255,255);
+            }
+            .svg-inline--fa{
+                height: 40px !important;
+            }  
+        }
+    }
+}
 
 
 
