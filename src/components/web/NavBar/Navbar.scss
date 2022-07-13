@@ -4,7 +4,6 @@ nav.bg-light {
   
   .logo-navbar{
     height: 40px;
-    
     margin: 0;
     padding: 0;
     padding-left: 30px;
@@ -21,6 +20,17 @@ nav.bg-light {
       margin-top: 15px;
       margin-bottom: 15px;
     }
+
+    a{
+      padding-left: 6px !important;
+    }
   }
-  
+
+
+  @media (max-width: 500px) {
+
+    .offcanvas{
+      width: 80% !important;
+    }
+  }
   
