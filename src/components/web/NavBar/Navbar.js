@@ -38,6 +38,7 @@ function Navbar() {
         fixed="top"
         key={"md"}
         bg={""}
+        collapseOnSelect
         expand={"lg"}
         className="mb-0"
       >
