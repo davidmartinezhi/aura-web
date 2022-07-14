@@ -49,7 +49,7 @@ export default function MainBannerParticles({ children }) {
             },
             modes: {
               push: {
-                quantity: 2,
+                quantity: 0,
               },
               repulse: {
                 distance: 150,
@@ -93,7 +93,7 @@ export default function MainBannerParticles({ children }) {
                 enable: true,
                 area: 1000,
               },
-              value: 100,
+              value: 130,
             },
             opacity: {
               value: 0.5,
