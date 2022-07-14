@@ -20,7 +20,7 @@ function Navbar() {
   const changeBackground = () => {
     if (window.innerWidth > 912) {
       setNavBar(false);
-      setTop("dark");
+      setTop("");
       setLogo(logoAuraWhite);
     } else {
       setNavBar(true);
@@ -36,18 +36,20 @@ function Navbar() {
         variant={top}
         fixed="top"
         key={"md"}
-        bg={""}
+        bg={top}
         collapseOnSelect
         expand={"lg"}
         className="mb-0"
+        
       >
         <Container fluid>
           <NavbarBootstrap.Brand href="/">
             <img className="logo-navbar" src={logo} alt="Aura logo" />
           </NavbarBootstrap.Brand>
-          <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
+          <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} onClick={() => changeBackground()}/>
           <NavbarBootstrap.Collapse
             id="responsive-navbar-nav"
+            onClick={() => changeBackground()}
           >
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link href="/#nosotros">Sobre Aura</Nav.Link>

@@ -1,3 +1,18 @@
+nav.navbar-dark{
+  background-color: black !important;
+}
+
+a.nav-link{
+  color: rgb(215, 215, 215);
+  &:hover{
+    color: rgb(255, 255, 255) !important;
+  }
+}
+
+a.active{
+  color: rgb(255,255,255);
+}
+
 nav.bg-light {
     background-color: white !important;
   }
@@ -8,11 +23,6 @@ nav.bg-light {
     padding: 0;
     padding-left: 30px;
   }
-  
-  a.active-link {
-    color: rgb(3, 175, 255);
-  }
-  
   
   @media (max-width: 991px) {
     a.nav-link {
