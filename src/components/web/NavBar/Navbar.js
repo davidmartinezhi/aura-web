@@ -32,7 +32,6 @@ function Navbar() {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <Container fluid>
       <NavbarBootstrap
         variant={top}
         fixed="top"
@@ -47,23 +46,9 @@ function Navbar() {
             <img className="logo-navbar" src={logo} alt="Aura logo" />
           </NavbarBootstrap.Brand>
           <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
-          <NavbarBootstrap.Offcanvas
-            id={`offcanvasNavbar-expand-lg`}
-            aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
-            placement="end"
+          <NavbarBootstrap.Collapse
+            id="responsive-navbar-nav"
           >
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
-                <a href="/">
-                  <img
-                    className="logo-navbar"
-                    src={logoAura}
-                    alt="Aura logo"
-                  />
-                </a>
-              </Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link href="/#nosotros">Sobre Aura</Nav.Link>
                 <Nav.Link href="/#servicios">Servicios</Nav.Link>
@@ -71,11 +56,10 @@ function Navbar() {
                 <Nav.Link href="/#clientes">Clientes</Nav.Link>
                 <Nav.Link href="/#contacto">Contacto</Nav.Link>
               </Nav>
-            </Offcanvas.Body>
-          </NavbarBootstrap.Offcanvas>
+          </NavbarBootstrap.Collapse>
         </Container>
       </NavbarBootstrap>
-    </Container>
+
   );
 }
 

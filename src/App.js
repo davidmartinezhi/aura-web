@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import routes from "./config/routes";
 import './App.scss';
+import Navbar from "./components/web/NavBar/Navbar";
 
 function App() {
   return (
     <Router>
+      <Navbar/>
       <Switch>
         {routes.map((route, index) => (
           <RouteWithSubRoutes key={index} {...route} />
